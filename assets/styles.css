@@ -89,12 +89,20 @@ footer ul li{
 footer div .logo{
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer div ul li{
     padding:30px;
     margin-left: 0px;
     margin-right: 35px;
+}
+
+.insta, .git, .email{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .profil {
